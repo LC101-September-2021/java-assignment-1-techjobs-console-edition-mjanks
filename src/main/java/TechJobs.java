@@ -122,9 +122,9 @@ public class TechJobs {
             System.out.print("No Results");
         } else {
             for(int i=0; i < someJobs.size(); i++) {
-                System.out.print("*****");
+                System.out.println("*****");
                 for(String key : someJobs.get(i).keySet()) {
-                    System.out.print(key + ": " + someJobs.get(i).get(key) + "\n");
+                    System.out.print(key + ": " + someJobs.get(i).get(key));
                 }
             }
             System.out.println("*****");
